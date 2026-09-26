@@ -6,9 +6,9 @@ class Solution {
                 count++;
             }
         }
-        if(count==3){
-            return true;
+        if(count!=3){
+            return false;
         }
-        return false;
+        return true;
     }
 }
