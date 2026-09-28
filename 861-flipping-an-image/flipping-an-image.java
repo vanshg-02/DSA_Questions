@@ -15,8 +15,7 @@ class Solution {
             for(int j=0;j<image.length;j++){
                 if(image[i][j]==0){
                     image[i][j]=1;
-                }
-                else{
+                }else{
                     image[i][j]=0;
                 }
             }
