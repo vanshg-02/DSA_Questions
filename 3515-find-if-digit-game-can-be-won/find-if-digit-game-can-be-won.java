@@ -12,10 +12,7 @@ class Solution {
                 sum2+=nums[i];
             }
         }
-        if(sum1>total-sum1){
-            return true;
-        }
-        if(sum2>total-sum2){
+        if(sum1>total-sum1 || sum2>total-sum2){
             return true;
         }
         return false;
