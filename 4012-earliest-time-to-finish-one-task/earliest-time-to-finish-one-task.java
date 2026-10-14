@@ -5,8 +5,8 @@ class Solution {
         int minsum=Integer.MAX_VALUE;
         for(int i=0;i<n;i++){
             int sum=0;
-            for(int j=0;j<m;j++){
-                sum+=tasks[i][j];
+            for(int val:tasks[i]){
+                sum+=val;
                 
             }
             minsum=Math.min(sum,minsum);
