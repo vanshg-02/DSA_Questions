@@ -5,20 +5,20 @@ class Solution {
         int seclar=Integer.MIN_VALUE;
         int small=Integer.MAX_VALUE;
         int secsma=Integer.MAX_VALUE;
-        for(int i=0;i<n;i++){
-            if(nums[i]>largest){
+        for(int num:nums){
+            if(num>largest){
                 seclar=largest;
-                largest=nums[i];
+                largest=num;
             }
-            else if(nums[i]>seclar){
-                seclar=nums[i];
+            else if(num>seclar){
+                seclar=num;
             }
-            if(nums[i]<small){
+            if(num<small){
                 secsma=small;
-                small=nums[i];
+                small=num;
             }
-            else if(nums[i]<secsma){
-                secsma=nums[i];
+            else if(num<secsma){
+                secsma=num;
             }
         }
         
