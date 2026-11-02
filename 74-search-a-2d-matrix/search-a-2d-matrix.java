@@ -19,5 +19,24 @@ class Solution {
             }
         }
         return false;
+        // int n=matrix.length;
+        // int m=matrix[0].length;
+        // for(int i=0;i<n;i++){
+        //     if(target<matrix[i][m-1]){
+        //         int beg=0;
+        //         int end=m-1;
+        //         int mid=(end+beg)/2;
+        //         if(target==matrix[i][mid]){
+        //             return true;
+        //         }
+        //         else if(target<matrix[i][mid]){
+        //             end=mid-1;
+        //         }
+        //         else{
+        //             beg=mid;
+        //         }
+        //     }
+        // }
+        // return false;
     }
 }
